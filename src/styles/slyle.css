@@ -107,6 +107,10 @@ body {
   line-height: 1;
 }
 
+a {
+  text-decoration: none;
+}
+
 ol,
 ul {
   list-style: none;
@@ -133,7 +137,7 @@ table {
 /*--------------------*/
 
 @font-face {
-  font-family: "Neucha";
+  font-family: "Neucha", cursive;
   src: url("../fonts/Neucha-Regular.ttf");
 }
 
@@ -177,8 +181,52 @@ h3 {
   font-size: 34px;
 }
 
+
+/* .....................HEADER....................... */
+
+
+.background-img {
+  position: relative;
+}
+
+.background-img::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: url(../img/background-pattern.png);
+  opacity: 90%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .container {
   margin: 0 auto;
   max-width: 1440px;
-  padding: 100px 15px;
+  padding: 100px 165px;
+}
+
+.header__title {
+  font-family: "Neucha", cursive;
+  color: var(--dark);
+}
+
+.main-color {
+  color: var(--main-color);
+}
+
+.header__image {
+  position: absolute;
+  max-height: 525px;
+  top: 55px;
+  right: -270px;
+}
+
+.btn {
+  padding: 12px 24px;
+  font-weight: 700;
+  background-color: var(--main-color);
+  color: var(--light);
 }
