@@ -335,19 +335,91 @@ margin-bottom: 200px;
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
 
-.preview-link {
+/* .preview-link {
   width: 100%;
-}
+} */
 
 .preview-image {
   width: 100%;
 }
 
+/* ................NAVIGATION............... */
+
 .nav__container {
   padding-top: 0;
   padding-bottom: 0;
-}
-.nav {
-  height: 890px;
   background-color: var(--primaty-dark);
 }
+
+.nav {
+  height: 992px;
+
+}
+
+.nav__list {
+  padding-top: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  /* gap: 30px; */
+}
+.nav__list-item {
+  margin: 0 30px 20px 0;
+  padding: 24px;
+  width: 302px;
+  height: 275px;
+  background-color: var(--light);
+}
+
+.nav__list-item:first-child {
+  padding: 0;
+  width: 350px;
+  height: 323px;
+  background-color: transparent;
+}
+
+.nav__list-item:nth-child(3n) {
+  margin-right: 0;
+}
+
+.h-348 {
+  height: 300px;
+}
+
+.nav-title {
+  font-family: "Neucha";
+  font-size: 52px;
+  font-weight: 400;
+  line-height: 62.4px;
+  color: var(--white);
+}
+
+.card-number {
+  margin-bottom: 40px;
+  font-family: "Neucha";
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 1;
+  color: var(--primaty-dark);
+}
+
+.card-title {
+  margin-bottom: 16px;
+  font-family: "Neucha";
+  font-size: 34px;
+  font-weight: 400;
+  line-height: 40.8px;
+  color: var(--main-color);
+}
+
+.mb-12 {
+  margin-bottom: 12px;
+}
+
+.card-description {
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.6px;
+  color: var(--dark);
+}
+
