@@ -213,7 +213,7 @@ h3 {
 .container {
   margin: 0 auto;
   width: 1110px;
-  padding: 100px 165px;
+  padding: 98px 165px;
 }
 
 /* .header__container {
@@ -289,4 +289,65 @@ margin-bottom: 200px;
   text-transform: uppercase;
   background-color: var(--main-color);
   color: var(--light);
+}
+
+
+/* ..............Video........................ */
+.video {
+  margin: 0;
+  padding: 0;
+}
+
+.video__container {
+  position: relative;
+  height: 714px;
+  padding-bottom: 0;
+}
+
+.video__title {
+  margin-bottom: 30px;
+  font-family: "Neucha";
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 72px;
+  text-align: center;
+}
+
+.video__description {
+  margin-bottom: 30px;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.6px;
+  text-align: center;
+}
+
+.video__block{
+  position: absolute;
+  /* display: flex; */
+  bottom: -315px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* margin-left: auto;
+  margin-right: auto; */
+  width: 982px;
+  height: 543px;
+  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
+}
+
+.preview-link {
+  width: 100%;
+}
+
+.preview-image {
+  width: 100%;
+}
+
+.nav__container {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.nav {
+  height: 890px;
+  background-color: var(--primaty-dark);
 }
