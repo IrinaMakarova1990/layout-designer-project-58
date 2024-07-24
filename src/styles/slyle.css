@@ -200,14 +200,14 @@ h3 {
 .background-img::before {
   content: '';
   position: absolute;
-  left: 0;
+  left: 65px;
   top: 0;
-  /* width: 100%;
-  height: 100%; */
+  width: 100%;
+  height: 100%;
   background: url(../img/background-pattern.png);
   opacity: 90%;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 
 .container {
@@ -423,3 +423,76 @@ margin-bottom: 200px;
   color: var(--dark);
 }
 
+/* ......................IKEA................... */
+/* 
+.ikea-effect-container {
+  max-height: 910px;
+} */
+
+.ikea-top {
+  display: flex;
+  gap: 30px;
+}
+
+.ikea-img {
+  z-index: 1;
+}
+
+.ikea-image {
+  vertical-align: middle;
+  box-shadow: 0px 16px 32px 0px #00000026;
+}
+
+.ikea-text {
+  font-family: "Neucha";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.8px;
+  color: var(--dark50);
+}
+
+.ikea-title {
+  margin-bottom: 30px;
+  font-family: "Neucha";
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 72px;
+}
+
+.ikea-description {
+  font-family: "Neucha";
+  font-size: 34px;
+  font-weight: 400;
+  line-height: 40.8px;
+}
+
+.ikea-bottom {
+  padding-top: 100px;
+}
+
+.ikea-bottom-title {
+  margin-bottom: 22px;
+  padding-left: 10px;
+  height: 26px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 26px;
+  font-family: "Open Sans";
+  text-transform: uppercase;
+  color: var(--white);
+  background-color: var(--brown);
+}
+
+.ikea-bottom-text {
+  display: flex;
+  gap: 30px;
+}
+
+.ikea-bottom-description {
+  max-width: 540px;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.6px;
+  color: var(--dark);
+}
