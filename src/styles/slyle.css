@@ -426,21 +426,21 @@ margin-bottom: 200px;
 
 /* ......................IKEA................... */
 
-.ikea-top {
+.section-top {
   display: flex;
   gap: 30px;
 }
 
-.ikea-img {
+.section-img {
   z-index: 1;
 }
 
-.ikea-image {
+.section-image {
   vertical-align: middle;
   box-shadow: 0px 16px 32px 0px #00000026;
 }
 
-.ikea-text {
+.section-text {
   font-family: "Neucha";
   font-size: 24px;
   font-weight: 400;
@@ -448,7 +448,7 @@ margin-bottom: 200px;
   color: var(--dark50);
 }
 
-.ikea-title {
+.section-title {
   margin-bottom: 30px;
   font-family: "Neucha";
   font-size: 60px;
@@ -456,18 +456,18 @@ margin-bottom: 200px;
   line-height: 72px;
 }
 
-.ikea-description {
+.section-description {
   font-family: "Neucha";
   font-size: 34px;
   font-weight: 400;
   line-height: 40.8px;
 }
 
-.ikea-bottom {
+.section-bottom {
   padding-top: 100px;
 }
 
-.ikea-bottom-title {
+.section-bottom-title {
   margin-bottom: 22px;
   padding-left: 10px;
   height: 26px;
@@ -480,7 +480,7 @@ margin-bottom: 200px;
   background-color: var(--brown);
 }
 
-.ikea-bottom-text {
+.section-bottom-text {
   display: flex;
   gap: 30px;
 }
@@ -492,4 +492,23 @@ margin-bottom: 200px;
   font-weight: 400;
   line-height: 25.6px;
   color: var(--dark);
+}
+
+/* .................Premature Optimization............ */
+
+.premature-optimization__container {
+  background-color: var(--brown);
+}
+
+.wh50 {
+  color: var(--white50);
+}
+
+.white {
+  color: var(--white);
+}
+
+.color-brown {
+    color: var(--brown);
+    background-color: var(--white);
 }
