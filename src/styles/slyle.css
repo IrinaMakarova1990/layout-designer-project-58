@@ -523,3 +523,10 @@ margin-bottom: 200px;
 .distortion-of-novelty-container {
   background-color: var(--light);
 }
+
+
+/* ....................hyperbolic-depreciation......... */
+
+.hyperbolic-depreciation__container {
+  background-color: var(--brown);
+}
