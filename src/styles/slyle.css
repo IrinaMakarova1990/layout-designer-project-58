@@ -212,7 +212,7 @@ h3 {
 
 .container {
   margin: 0 auto;
-  width: 1110px;
+  max-width: 1110px;
   padding: 98px 165px;
 }
 
@@ -245,12 +245,12 @@ margin-bottom: 200px;
 
 .text {
   display: flex;
-  /* min-width: 540px; */
+  flex-wrap: wrap;
   gap: 30px;
 }
 
 .header__text {
-  width: 540px;
+  max-width: 540px;
 }
 
 .text-flex {
@@ -340,7 +340,7 @@ margin-bottom: 200px;
 } */
 
 .preview-image {
-  width: 100%;
+  max-width: 100%;
 }
 
 /* ................NAVIGATION............... */
@@ -352,7 +352,7 @@ margin-bottom: 200px;
 }
 
 .nav {
-  height: 992px;
+  min-height: 992px;
 
 }
 
@@ -360,10 +360,11 @@ margin-bottom: 200px;
   padding-top: 200px;
   display: flex;
   flex-wrap: wrap;
-  /* gap: 30px; */
+  gap: 30px;
 }
+
 .nav__list-item {
-  margin: 0 30px 20px 0;
+  /* margin: 0 30px 20px 0; */
   padding: 24px;
   width: 302px;
   height: 275px;
@@ -377,9 +378,9 @@ margin-bottom: 200px;
   background-color: transparent;
 }
 
-.nav__list-item:nth-child(3n) {
+/* .nav__list-item:nth-child(3n) {
   margin-right: 0;
-}
+} */
 
 .h-348 {
   height: 300px;
@@ -424,10 +425,6 @@ margin-bottom: 200px;
 }
 
 /* ......................IKEA................... */
-/* 
-.ikea-effect-container {
-  max-height: 910px;
-} */
 
 .ikea-top {
   display: flex;
