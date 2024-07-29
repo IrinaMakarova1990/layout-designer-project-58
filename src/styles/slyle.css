@@ -216,9 +216,10 @@ h3 {
   padding: 98px 165px;
 }
 
-/* .header__container {
-  margin-bottom: 185px;
-} */
+.header__container {
+    background-color: var(--light);
+}
+
 .header__heading {
 margin-bottom: 200px;
 }
@@ -426,6 +427,10 @@ margin-bottom: 200px;
 
 /* ......................IKEA................... */
 
+.ikea-effect-container {
+    background-color: var(--light);
+}
+
 .section-top {
   display: flex;
   gap: 30px;
@@ -511,4 +516,10 @@ margin-bottom: 200px;
 .color-brown {
     color: var(--brown);
     background-color: var(--white);
+}
+
+/* ...........Distortion of Novelty............ */
+
+.distortion-of-novelty-container {
+  background-color: var(--light);
 }
