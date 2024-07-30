@@ -202,13 +202,13 @@ h3 {
   opacity: 90%;
   background-repeat: no-repeat;
   background-size: contain;
-  z-index: -1;
+  /* z-index: -1; */
 }
 
 .container {
   margin: 0 auto;
   max-width: 1110px;
-  padding: 98px 165px;
+  padding: 100px 165px;
 }
 
 .header__container {
