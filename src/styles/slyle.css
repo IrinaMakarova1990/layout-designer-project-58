@@ -595,17 +595,26 @@ margin-bottom: 200px;
 }
 
 .send-form {
+  width: 70px;
+  position: relative;
   margin: 0;
   padding: 0;
   border: none;
   background-color: var(--main-color);
 }
 
-.send-icon {
-  padding: 11px 23px;
+.send-form::before {
+  content: "";
   width: 24px;
   height: 24px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  background-image: url("../img/send.svg");
 }
+
+
 
 .privacy,
 .privacy-link {
