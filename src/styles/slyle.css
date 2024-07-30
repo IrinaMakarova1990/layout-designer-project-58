@@ -202,6 +202,7 @@ h3 {
   opacity: 90%;
   background-repeat: no-repeat;
   background-size: contain;
+  z-index: -1;
 }
 
 .container {
@@ -266,10 +267,10 @@ margin-bottom: 200px;
   margin-bottom: 42px;
 }
 
-.btn {
+.navigation-link {
   padding: 12px 24px;
   width: 100px;
-  cursor: pointer;
+  /* cursor: pointer; */
   text-align: center;
   font-weight: 700;
   text-transform: uppercase;
