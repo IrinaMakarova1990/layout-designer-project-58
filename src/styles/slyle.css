@@ -286,7 +286,7 @@ margin-bottom: 200px;
 
 .video__container {
   position: relative;
-  height: 714px;
+  height: 646px;;
   padding-bottom: 0;
 }
 
@@ -310,7 +310,7 @@ margin-bottom: 200px;
 
 .video__block{
   position: absolute;
-  bottom: -315px;
+  bottom: -359px;;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 919px;
