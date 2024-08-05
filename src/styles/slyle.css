@@ -331,7 +331,7 @@ margin-bottom: 200px;
 }
 
 .nav {
-  min-height: 992px;
+  min-height: 998px;
 
 }
 
@@ -345,14 +345,14 @@ margin-bottom: 200px;
   margin: 0 30px 20px 0;
   padding: 24px;
   width: 302px;
-  height: 275px;
+  height: 278px;
   background-color: var(--light);
 }
 
 .nav__list-item:first-child {
   padding: 0;
   width: 350px;
-  height: 323px;
+  height: 327px;
   background-color: transparent;
 }
 
@@ -361,14 +361,14 @@ margin-bottom: 200px;
 }
 
 .h-348 {
-  height: 300px;
+  height: 303px;
 }
 
 .nav-title {
   font-family: "Neucha";
   font-size: 52px;
   font-weight: 400;
-  line-height: 62px;
+  line-height: 62.4px;
   color: var(--white);
 }
 
@@ -382,23 +382,23 @@ margin-bottom: 200px;
 }
 
 .card-title {
-  margin-bottom: 16px;
+  margin-bottom: 15px;
   font-family: "Neucha";
   font-size: 34px;
   font-weight: 400;
-  line-height: 40.8px;
+  line-height: 41px;
   color: var(--main-color);
 }
 
 .mb-12 {
-  margin-bottom: 12px;
+  margin-bottom: 14px;
 }
 
 .card-description {
   font-family: "Open Sans";
   font-size: 16px;
   font-weight: 400;
-  line-height: 25.6px;
+  line-height: 26px;
   color: var(--dark);
 }
 
@@ -442,7 +442,7 @@ margin-bottom: 200px;
   font-family: "Neucha";
   font-size: 34px;
   font-weight: 400;
-  line-height: 40px;
+  line-height: 41px;
 }
 
 .section-bottom {
@@ -450,9 +450,9 @@ margin-bottom: 200px;
 }
 
 .section-bottom-title {
-  margin-bottom: 22px;
+  margin-bottom: 20px;
   padding-left: 10px;
-  height: 26px;
+  height: 27px;
   font-size: 14px;
   font-weight: 700;
   line-height: 26px;
@@ -473,6 +473,7 @@ margin-bottom: 200px;
   font-size: 16px;
   font-weight: 400;
   line-height: 25.6px;
+  letter-spacing: 0.1px;
   color: var(--dark);
 }
 
