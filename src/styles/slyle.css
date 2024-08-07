@@ -496,37 +496,6 @@ margin-bottom: 200px;
     background-color: var(--white);
 }
 
-/* ....RANDOM CONTENT!!!!!..... */
-
-.random__title {
-  padding-top: 29px;
-  padding-bottom: 14px;
-  font-family: "Neucha";
-    font-size: 60px;
-    font-weight: 400;
-    line-height: 72px;
-    color: var(--main-color);
-}
-
-.random__list {
-  padding-left: 40px;
-  margin-bottom: 14px;
-}
-
-.random__list-item {
-  list-style: disc;
-  margin-bottom: 14px;
-}
-
-.random__list-item,
-.random__text {
-    font-family: "Neucha";
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 26px;
-    letter-spacing: 1.2px;
-}
-
 /* ...........Distortion of Novelty............ */
 
 .distortion-of-novelty-container {
