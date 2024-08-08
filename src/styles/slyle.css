@@ -1,9 +1,14 @@
+<<<<<<< HEAD
 /*--------------------*/
 
 @font-face {
   font-family: "Neucha";
   font-weight: 400;
   font-style: normal;
+=======
+@font-face {
+  font-family: "Neucha";
+>>>>>>> b1cfdc4e04b12669e7898fb858885786e1d2aa24
   src: url("../fonts/Neucha-Regular.ttf");
 }
 
@@ -34,6 +39,7 @@ body {
 h1, h2, h3 {
   margin: 0;
   line-height: 1.2em;
+  font-family: "Neucha", cursive;
 }
 
 h1 {
@@ -41,7 +47,6 @@ h1 {
 }
 
 h2 {
-  font-family: "Neucha";
   font-size: 60px;
  
 }
@@ -151,18 +156,18 @@ margin-bottom: 200px;
 
 
 /* ..............Video........................ */
-.video {
+.preview-image {
   margin: 0;
   padding: 0;
 }
 
-.video__container {
+.preview__container {
   position: relative;
-  height: 646px;;
+  height: 646px;
   padding-bottom: 0;
 }
 
-.video__title {
+.preview__title {
   margin-bottom: 30px;
   font-family: "Neucha";
   font-size: 60px;
@@ -171,7 +176,7 @@ margin-bottom: 200px;
   text-align: center;
 }
 
-.video__description {
+.preview__description {
   margin-bottom: 30px;
   font-family: "Open Sans";
   font-size: 16px;
@@ -180,7 +185,7 @@ margin-bottom: 200px;
   text-align: center;
 }
 
-.video__block{
+.preview__block{
   position: absolute;
   bottom: -359px;;
   left: 50%;
@@ -190,7 +195,7 @@ margin-bottom: 200px;
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
 
-.preview-image {
+.preview__block-img {
   max-width: 100%;
 }
 
