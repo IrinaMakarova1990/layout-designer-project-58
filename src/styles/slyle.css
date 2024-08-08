@@ -1,147 +1,6 @@
-/*Обнуление*/
-/* html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
-
-/* HTML5 display-role reset for older browsers */
-/* article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-  display: block;
-}
-
-body {
-  line-height: 1;
-}
-
-a {
-  text-decoration: none;
-  cursor: pointer;
-}
-
-ol,
-ul {
-  list-style: none;
-}
-
-blockquote,
-q {
-  quotes: none;
-}
-
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-  content: '';
-  content: none;
-}
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-} */ */
-
-/*--------------------*/
-
 @font-face {
   font-family: "Neucha";
-  font-weight: 400;
-  font-style: normal;
-  src: url(../fonts/Neucha-Regular.ttf);
+  src: url("../fonts/Neucha-Regular.ttf");
 }
 
 @font-face {
@@ -171,6 +30,7 @@ body {
 h1, h2, h3 {
   margin: 0;
   line-height: 1.2em;
+  font-family: "Neucha", cursive;
 }
 
 h1 {
@@ -178,7 +38,6 @@ h1 {
 }
 
 h2 {
-  font-family: "Neucha";
   font-size: 60px;
  
 }
@@ -288,18 +147,18 @@ margin-bottom: 200px;
 
 
 /* ..............Video........................ */
-.video {
+.preview-image {
   margin: 0;
   padding: 0;
 }
 
-.video__container {
+.preview__container {
   position: relative;
-  height: 646px;;
+  height: 646px;
   padding-bottom: 0;
 }
 
-.video__title {
+.preview__title {
   margin-bottom: 30px;
   font-family: "Neucha";
   font-size: 60px;
@@ -308,7 +167,7 @@ margin-bottom: 200px;
   text-align: center;
 }
 
-.video__description {
+.preview__description {
   margin-bottom: 30px;
   font-family: "Open Sans";
   font-size: 16px;
@@ -317,7 +176,7 @@ margin-bottom: 200px;
   text-align: center;
 }
 
-.video__block{
+.preview__block{
   position: absolute;
   bottom: -359px;;
   left: 50%;
@@ -327,7 +186,7 @@ margin-bottom: 200px;
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
 
-.preview-image {
+.preview__block-img {
   max-width: 100%;
 }
 
