@@ -152,13 +152,13 @@ margin-bottom: 200px;
   padding: 0;
 }
 
-.preview-image__container {
+.preview__container {
   position: relative;
   height: 646px;;
   padding-bottom: 0;
 }
 
-.preview-image__title {
+.preview__title {
   margin-bottom: 30px;
   font-family: "Neucha";
   font-size: 60px;
@@ -167,7 +167,7 @@ margin-bottom: 200px;
   text-align: center;
 }
 
-.preview-image__description {
+.preview__description {
   margin-bottom: 30px;
   font-family: "Open Sans";
   font-size: 16px;
@@ -176,7 +176,7 @@ margin-bottom: 200px;
   text-align: center;
 }
 
-.preview-image__block{
+.preview__block{
   position: absolute;
   bottom: -359px;;
   left: 50%;
@@ -186,7 +186,7 @@ margin-bottom: 200px;
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
 
-.preview-img {
+.preview__block-img {
   max-width: 100%;
 }
 
