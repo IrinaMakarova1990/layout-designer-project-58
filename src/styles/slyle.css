@@ -186,9 +186,9 @@ h3 {
   font-size: 34px;
 }
 
-p {
+/* p {
   margin: 0;
-}
+} */
 
 /* .....................HEADER....................... */
 
@@ -484,6 +484,7 @@ margin-bottom: 200px;
 }
 
 .section-bottom-description {
+  margin: 0;
   max-width: 540px;
   font-family: "Open Sans";
   font-size: 16px;
