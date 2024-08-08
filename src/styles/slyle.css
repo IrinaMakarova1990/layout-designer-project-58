@@ -178,8 +178,9 @@ h1 {
 }
 
 h2 {
-  font-size: 60px;
   font-family: "Neucha";
+  font-size: 60px;
+ 
 }
 
 h3 {
@@ -563,6 +564,7 @@ margin-bottom: 200px;
 }
 
 .form-title {
+  margin: 0;
   margin-bottom: 8px;
   font-family: "Open Sans";
   font-size: 18px;
@@ -628,7 +630,8 @@ margin-bottom: 200px;
 
 .privacy,
 .privacy-link {
-  font-family: Open Sans;
+  margin: 0;
+  font-family: "Open Sans";
   font-size: 12px;
   font-weight: 400;
   line-height: 19px;
@@ -644,6 +647,7 @@ margin-bottom: 200px;
 .copyright,
 .article,
 .hexlet {
+  margin: 0;
   margin-bottom: 16px;
   font-family: "Open Sans";
   font-size: 14px;
