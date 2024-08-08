@@ -147,7 +147,7 @@ margin-bottom: 200px;
 
 
 /* ..............Video........................ */
-.video {
+.preview-image {
   margin: 0;
   padding: 0;
 }
@@ -186,7 +186,7 @@ margin-bottom: 200px;
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
 
-.preview-image {
+.preview-img {
   max-width: 100%;
 }
 
