@@ -89,7 +89,7 @@ video {
 }
 
 /* HTML5 display-role reset for older browsers */
-article,
+/* article,
 aside,
 details,
 figcaption,
@@ -133,7 +133,7 @@ q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
-} */
+} */ */
 
 /*--------------------*/
 
@@ -349,6 +349,7 @@ margin-bottom: 200px;
   padding-top: 200px;
   display: flex;
   flex-wrap: wrap;
+  list-style: none;
 }
 
 .nav__list-item {
@@ -368,6 +369,10 @@ margin-bottom: 200px;
 
 .nav__list-item:nth-child(3n) {
   margin-right: 0;
+}
+
+.nav__list-link {
+  text-decoration: none;
 }
 
 .h-348 {
