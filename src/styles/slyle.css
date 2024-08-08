@@ -455,6 +455,7 @@ margin-bottom: 200px;
 }
 
 .section-description {
+  margin: 0;
   font-family: "Neucha";
   font-size: 34px;
   font-weight: 400;
