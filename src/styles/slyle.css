@@ -1,14 +1,5 @@
-<<<<<<< HEAD
-/*--------------------*/
-
 @font-face {
   font-family: "Neucha";
-  font-weight: 400;
-  font-style: normal;
-=======
-@font-face {
-  font-family: "Neucha";
->>>>>>> b1cfdc4e04b12669e7898fb858885786e1d2aa24
   src: url("../fonts/Neucha-Regular.ttf");
 }
 
@@ -146,6 +137,7 @@ margin-bottom: 200px;
 .navigation-link {
   padding: 12px 24px;
   width: 100px;
+  text-decoration: none;
   /* cursor: pointer; */
   text-align: center;
   font-weight: 700;
