@@ -1,10 +1,10 @@
 @font-face {
-  font-family: "Neucha", cursive;
+  font-family: "Neucha";
   src: url("../fonts/Neucha-Regular.ttf");
 }
 
 @font-face {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans";
   src: url("../fonts/OpenSans-VariableFont_wdth\,wght.ttf");
 }
 
@@ -27,10 +27,8 @@ body {
   color: var(--dark);
 }
 
-h1,
-
-h2,
-
+h1, 
+h2, 
 h3 {
   margin: 0;
   line-height: 1.2em;
@@ -155,7 +153,7 @@ margin-bottom: 200px;
 
 .preview__title {
   margin-bottom: 30px;
-  font-family: 'Neucha';
+  font-family: "Neucha";
   font-size: 60px;
   font-weight: 400;
   line-height: 72px;
@@ -234,7 +232,7 @@ margin-bottom: 200px;
 }
 
 .nav-title {
-  font-family: 'Neucha';
+  font-family: "Neucha";
   font-size: 52px;
   font-weight: 400;
   line-height: 62.4px;
@@ -243,7 +241,7 @@ margin-bottom: 200px;
 
 .card-number {
   margin-bottom: 40px;
-  font-family: 'Neucha';
+  font-family: "Neucha";
   font-size: 64px;
   font-weight: 400;
   line-height: 1;
@@ -291,7 +289,7 @@ margin-bottom: 200px;
 
 .section-text {
   margin: 0;
-  font-family: 'Neucha';
+  font-family: "Neucha";
   font-size: 24px;
   font-weight: 400;
   line-height: 28px;
@@ -300,7 +298,7 @@ margin-bottom: 200px;
 
 .section-title {
   margin-bottom: 30px;
-  font-family: 'Neucha';
+  font-family: "Neucha";
   font-size: 60px;
   font-weight: 400;
   line-height: 72px;
@@ -308,7 +306,7 @@ margin-bottom: 200px;
 
 .section-description {
   margin: 0;
-  font-family: 'Neucha';
+  font-family: "Neucha";
   font-size: 34px;
   font-weight: 400;
   line-height: 41px;
