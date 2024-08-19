@@ -27,8 +27,10 @@ body {
   color: var(--dark);
 }
 
-h1, 
-h2, 
+h1,
+
+h2,
+
 h3 {
   margin: 0;
   line-height: 1.2em;
@@ -54,14 +56,14 @@ h3 {
 }
 
 .background-img::before {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   top: 0;
   width: 100%;
   height: 100%;
   background-image: url("../img/background.png");
-  opacity: 10%;
+  opacity: 0.1;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -72,18 +74,18 @@ h3 {
   padding: 100px 165px;
 }
 
-.header__container {
-    background-color: var(--light);
+.header-container {
+  background-color: var(--light);
 }
 
-.header__heading {
-margin-bottom: 200px;
+.header-heading {
+  margin-bottom: 200px;
 }
 
-.header__title {
+.header-title {
   margin: 0;
   font-weight: 400;
-  font-family: 'Neucha', cursive;
+  font-family: "Neucha", cursive;
   color: var(--dark);
 }
 
@@ -91,7 +93,7 @@ margin-bottom: 200px;
   color: var(--main-color);
 }
 
-.header__image {
+.header-image {
   position: absolute;
   max-height: 525px;
   top: 55px;
@@ -104,7 +106,7 @@ margin-bottom: 200px;
   gap: 30px;
 }
 
-.header__text {
+.header-text {
   max-width: 540px;
 }
 
@@ -113,7 +115,7 @@ margin-bottom: 200px;
   flex-direction: column;
 }
 
-.header__text-description {
+.header-text-description {
   margin: 0;
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
@@ -139,39 +141,41 @@ margin-bottom: 200px;
   background-color: var(--main-color);
   color: var(--light);
 }
+
 /* ..............Video........................ */
+
 .preview-image {
   margin: 0;
   padding: 0;
 }
 
-.preview__container {
+.preview-container {
   position: relative;
   height: 864px;
   padding-bottom: 0;
 }
 
-.preview__title {
+.preview-title {
   margin-bottom: 30px;
-  font-family: "Neucha";
+  font-family: "Neucha", cursive;
   font-size: 60px;
   font-weight: 400;
   line-height: 72px;
   text-align: center;
 }
 
-.preview__description {
+.preview-description {
   margin-bottom: 30px;
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 25.6px;
   text-align: center;
 }
 
-.preview__block{
+.preview-block{
   position: absolute;
-  bottom: -140px;;
+  bottom: -140px;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 919px;
@@ -180,11 +184,13 @@ margin-bottom: 200px;
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
 
-.preview__block-img {
+.preview-block-img {
   max-width: 100%;
 }
+
 /* ................NAVIGATION............... */
-.nav__container {
+
+.nav-container {
   margin-top: -218px;
   padding-top: 0;
   padding-bottom: 0;
@@ -195,7 +201,7 @@ margin-bottom: 200px;
   min-height: 998px;
 }
 
-.nav__list {
+.nav-list {
   padding: 0;
   margin: 0;
   padding-top: 200px;
@@ -204,7 +210,7 @@ margin-bottom: 200px;
   list-style: none;
 }
 
-.nav__list-item {
+.nav-list-item {
   margin: 0 30px 20px 0;
   padding: 24px;
   width: 302px;
@@ -212,18 +218,18 @@ margin-bottom: 200px;
   background-color: var(--light);
 }
 
-.nav__list-item:first-child {
+.nav-list-item:first-child {
   padding: 0;
   width: 350px;
   height: 327px;
   background-color: transparent;
 }
 
-.nav__list-item:nth-child(3n) {
+.nav-list-item:nth-child(3n):nth-child(3n) {
   margin-right: 0;
 }
 
-.nav__list-link {
+.nav-list-link {
   text-decoration: none;
 }
 
@@ -232,7 +238,7 @@ margin-bottom: 200px;
 }
 
 .nav-title {
-  font-family: "Neucha";
+  font-family: "Neucha", cursive;
   font-size: 52px;
   font-weight: 400;
   line-height: 62.4px;
@@ -241,7 +247,7 @@ margin-bottom: 200px;
 
 .card-number {
   margin-bottom: 40px;
-  font-family: "Neucha";
+  font-family: "Neucha", cursive;
   font-size: 64px;
   font-weight: 400;
   line-height: 1;
@@ -250,7 +256,7 @@ margin-bottom: 200px;
 
 .card-title {
   margin-bottom: 15px;
-  font-family: "Neucha";
+  font-family: "Neucha", cursive;
   font-size: 34px;
   font-weight: 400;
   line-height: 41px;
@@ -268,9 +274,11 @@ margin-bottom: 200px;
   line-height: 26px;
   color: var(--dark);
 }
+
 /* ......................IKEA................... */
+
 .ikea-effect-container {
-    background-color: var(--light);
+  background-color: var(--light);
 }
 
 .section-top {
@@ -284,12 +292,12 @@ margin-bottom: 200px;
 
 .section-image {
   vertical-align: middle;
-  box-shadow: 0px 16px 32px 0px #00000026;
+  box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.15);
 }
 
 .section-text {
   margin: 0;
-  font-family: "Neucha";
+  font-family: "Neucha", cursive;
   font-size: 24px;
   font-weight: 400;
   line-height: 28px;
@@ -298,7 +306,7 @@ margin-bottom: 200px;
 
 .section-title {
   margin-bottom: 30px;
-  font-family: "Neucha";
+  font-family: "Neucha", cursive;
   font-size: 60px;
   font-weight: 400;
   line-height: 72px;
@@ -306,7 +314,7 @@ margin-bottom: 200px;
 
 .section-description {
   margin: 0;
-  font-family: "Neucha";
+  font-family: "Neucha", cursive;
   font-size: 34px;
   font-weight: 400;
   line-height: 41px;
@@ -323,7 +331,7 @@ margin-bottom: 200px;
   font-size: 14px;
   font-weight: 700;
   line-height: 26px;
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   text-transform: uppercase;
   color: var(--white);
   background-color: var(--brown);
@@ -337,15 +345,17 @@ margin-bottom: 200px;
 .section-bottom-description {
   margin: 0;
   max-width: 540px;
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 25.6px;
   letter-spacing: 0.1px;
   color: var(--dark);
 }
+
 /* .................Premature Optimization............ */
-.premature-optimization__container {
+
+.premature-optimization-container {
   background-color: var(--brown);
 }
 
@@ -366,13 +376,13 @@ margin-bottom: 200px;
   background-color: var(--light);
 }
 /* ....................hyperbolic-depreciation......... */
-.hyperbolic-depreciation__container {
+.hyperbolic-depreciation-container {
   background-color: var(--brown);
 }
 
 /* .......................errors-in-planning......................... */
 
-.errors-in-planning__container {
+.errors-in-planning-container {
   padding-top: 100px;
   padding-bottom: 116px;
   background-color: var(--light);
@@ -384,7 +394,7 @@ margin-bottom: 200px;
 
 /* ..........................FOOTER............................. */
 
-.footer__container {
+.footer-container {
   padding-bottom: 0;
 }
 
@@ -397,7 +407,7 @@ margin-bottom: 200px;
 }
 
 .footer-title {
-  font-family: "Neucha";
+  font-family: "Neucha", cursive;
   font-size: 34px;
   font-weight: 400;
   line-height: 41px;
@@ -407,7 +417,7 @@ margin-bottom: 200px;
 .form-title {
   margin: 0;
   margin-bottom: 8px;
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 29px;
@@ -437,7 +447,7 @@ margin-bottom: 200px;
 
 .user-email::placeholder {
   font-size: 13px;
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
   line-height: 21px;
   letter-spacing: -0.7px;
@@ -466,7 +476,7 @@ margin-bottom: 200px;
 .privacy,
 .privacy-link {
   margin: 0;
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   font-size: 12px;
   font-weight: 400;
   line-height: 19px;
@@ -474,7 +484,7 @@ margin-bottom: 200px;
   color: var(--white);
 }
 
-.footer__info {
+.footer-info {
   padding: 76px;
   text-align: center;
 }
@@ -484,12 +494,12 @@ margin-bottom: 200px;
 .hexlet {
   margin: 0;
   margin-bottom: 16px;
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   font-size: 14px;
   font-weight: 400;
   letter-spacing: 0.2px;
   line-height: 22px;
-  color: #000000;
+  color: #000;
 }
 
 .copyright,
@@ -498,7 +508,7 @@ margin-bottom: 200px;
 }
 
 .copyright::before {
-  content: '\00A9';
+  content: "\00A9";
 }
 
 .privacy-link {
@@ -509,5 +519,4 @@ margin-bottom: 200px;
 .hexlet-link {
   color: var(--blue);
   text-decoration: underline;
-
 }
