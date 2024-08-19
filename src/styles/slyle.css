@@ -155,7 +155,7 @@ margin-bottom: 200px;
 
 .preview__container {
   position: relative;
-  height: 646px;
+  height: 746px;
   padding-bottom: 0;
 }
 
@@ -179,7 +179,7 @@ margin-bottom: 200px;
 
 .preview__block{
   position: absolute;
-  bottom: -359px;;
+  bottom: -259px;;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 919px;
@@ -192,9 +192,16 @@ margin-bottom: 200px;
   max-width: 100%;
 }
 
+/* .preview__block-bottom {
+  height: 100px;
+  overflow: hidden;
+  background-color: var(--primaty-dark);
+} */
+
 /* ................NAVIGATION............... */
 
 .nav__container {
+  margin-top: -100px;
   padding-top: 0;
   padding-bottom: 0;
   background-color: var(--primaty-dark);
