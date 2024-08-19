@@ -155,7 +155,7 @@ margin-bottom: 200px;
 
 .preview__container {
   position: relative;
-  height: 814px;
+  height: 864px;
   padding-bottom: 0;
 }
 
@@ -179,7 +179,7 @@ margin-bottom: 200px;
 
 .preview__block{
   position: absolute;
-  bottom: -190px;;
+  bottom: -140px;;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 919px;
@@ -201,7 +201,7 @@ margin-bottom: 200px;
 /* ................NAVIGATION............... */
 
 .nav__container {
-  margin-top: -168px;
+  margin-top: -218px;
   padding-top: 0;
   padding-bottom: 0;
   background-color: var(--primaty-dark);
